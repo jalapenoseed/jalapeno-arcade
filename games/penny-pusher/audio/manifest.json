@@ -1,0 +1,341 @@
+{
+  "version": "0.3",
+  "profile": "dry-foley-v03",
+  "provider": "ElevenLabs",
+  "models": [
+    "eleven_text_to_sound_v2",
+    "eleven_multilingual_v2"
+  ],
+  "replacement_flow_id": "D3QIe9dOpsHArb2P4ptC",
+  "prior_flow_id": "MJBYNoaqhBMctslqgaYN",
+  "default_banks": [
+    "coin",
+    "tray",
+    "drop"
+  ],
+  "optional_banks": [
+    "motor",
+    "voiceAvalanche",
+    "voiceJackpot"
+  ],
+  "processing": "Selected transient windows from generated physical coin contacts. Coin clips 150 ms, tray 210 ms, chute 260 ms; damped decay, DC/high-frequency cleanup, conservative peaks; mono 44.1 kHz MP3 96 kbps. No musical/cascade samples in the active mix.",
+  "files": [
+    {
+      "file": "dry-coin-01.mp3",
+      "bank": "coin",
+      "duration_seconds": 0.15,
+      "source_trim_start_seconds": 0.09596,
+      "bytes": 2551,
+      "sha256": "defa142e8b6375431b708838305aa7ee53d859d8a362fae0e7e73b0737c3cc08",
+      "source": {
+        "name": "coin",
+        "prompt": "One single small dull metallic tick from two circulated copper pennies lightly contacting each other in a dense pile of coins. Extremely short dry close-microphone mechanical foley, immediate attack, naturally damped by the surrounding pile. No sustained ringing, no ping, no bell, no music, no melody, no electronic sound, no voice, no ambience. Just one tiny physical coin click.",
+        "node_id": "7eVpov0gsPaCb1WtfWQ3",
+        "index": 1,
+        "session_id": "rjLLFDE9XR2dZH578wkr",
+        "id": "yf6AK6yIVvWKSmWcxRXM",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-coin-02.mp3",
+      "bank": "coin",
+      "duration_seconds": 0.15,
+      "source_trim_start_seconds": 0.13721,
+      "bytes": 2551,
+      "sha256": "eb0cb06f81f30d1b52ff9d88f7789f084d85c411f67ee45de64d74ff1b7221a6",
+      "source": {
+        "name": "coin",
+        "prompt": "One single small dull metallic tick from two circulated copper pennies lightly contacting each other in a dense pile of coins. Extremely short dry close-microphone mechanical foley, immediate attack, naturally damped by the surrounding pile. No sustained ringing, no ping, no bell, no music, no melody, no electronic sound, no voice, no ambience. Just one tiny physical coin click.",
+        "node_id": "7eVpov0gsPaCb1WtfWQ3",
+        "index": 2,
+        "session_id": "jJWnYIX3mXAYlPloSTpw",
+        "id": "3A7lIu3skw1cBmuZrFYP",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-coin-03.mp3",
+      "bank": "coin",
+      "duration_seconds": 0.15,
+      "source_trim_start_seconds": 0.09816,
+      "bytes": 2551,
+      "sha256": "fe4d2062aacc91a4e043e73a710ccf3af243470548a92eccbcb434d93d3171e1",
+      "source": {
+        "name": "coin",
+        "prompt": "One single small dull metallic tick from two circulated copper pennies lightly contacting each other in a dense pile of coins. Extremely short dry close-microphone mechanical foley, immediate attack, naturally damped by the surrounding pile. No sustained ringing, no ping, no bell, no music, no melody, no electronic sound, no voice, no ambience. Just one tiny physical coin click.",
+        "node_id": "7eVpov0gsPaCb1WtfWQ3",
+        "index": 3,
+        "session_id": "BgjDjXOGWaUctyUm00Tz",
+        "id": "sYAhulYySOXKz944oczc",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-coin-04.mp3",
+      "bank": "coin",
+      "duration_seconds": 0.15,
+      "source_trim_start_seconds": 0.2249,
+      "bytes": 2551,
+      "sha256": "75688ee3b6e2bebfcec14f878b1c341635d1c215e05d53c74f28a90aa286ed0a",
+      "source": {
+        "name": "coin",
+        "prompt": "One single small dull metallic tick from two circulated copper pennies lightly contacting each other in a dense pile of coins. Extremely short dry close-microphone mechanical foley, immediate attack, naturally damped by the surrounding pile. No sustained ringing, no ping, no bell, no music, no melody, no electronic sound, no voice, no ambience. Just one tiny physical coin click.",
+        "node_id": "7eVpov0gsPaCb1WtfWQ3",
+        "index": 4,
+        "session_id": "B4C0xQjXUXaytLM6PeUn",
+        "id": "NaKX6BwP8QkO4rr7ZhQv",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-tray-01.mp3",
+      "bank": "tray",
+      "duration_seconds": 0.21,
+      "source_trim_start_seconds": 0.00791,
+      "bytes": 3492,
+      "sha256": "57b100c7102b037d0a26c4c7ffb91d9e05d3e1f44d943af532271e6c68d6b51b",
+      "source": {
+        "name": "tray",
+        "prompt": "One single small copper penny drops a few centimeters into a shallow steel payout tray containing other pennies. A short dry slightly hollow tick-clack, natural coin-on-metal contact and one tiny settling tick. Close-microphone realistic mechanical foley, immediate onset, damped decay. No ringing, no chimes, no bell, no melody, no voices, no electronic tones, no ambience.",
+        "node_id": "nO5rKYSnUXl6vsJbOUHN",
+        "index": 1,
+        "session_id": "JkKRSQuAW4LVbFTnDZec",
+        "id": "y1XX7GdIxswLaNnzO626",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-tray-02.mp3",
+      "bank": "tray",
+      "duration_seconds": 0.21,
+      "source_trim_start_seconds": 0.0,
+      "bytes": 3492,
+      "sha256": "9dde60d59beae05f42c7302169f35f4576eddf06a853c18e2173a92514821456",
+      "source": {
+        "name": "tray",
+        "prompt": "One single small copper penny drops a few centimeters into a shallow steel payout tray containing other pennies. A short dry slightly hollow tick-clack, natural coin-on-metal contact and one tiny settling tick. Close-microphone realistic mechanical foley, immediate onset, damped decay. No ringing, no chimes, no bell, no melody, no voices, no electronic tones, no ambience.",
+        "node_id": "nO5rKYSnUXl6vsJbOUHN",
+        "index": 2,
+        "session_id": "MZo81991LDSZeGCwtAqe",
+        "id": "JK09rGXbDGeybyyeyLx1",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-tray-03.mp3",
+      "bank": "tray",
+      "duration_seconds": 0.21,
+      "source_trim_start_seconds": 0.05361,
+      "bytes": 3492,
+      "sha256": "52bd220cb904aadda54f52bb2cead259219b1e42afafa0dec9fbb257a92fdc88",
+      "source": {
+        "name": "tray",
+        "prompt": "One single small copper penny drops a few centimeters into a shallow steel payout tray containing other pennies. A short dry slightly hollow tick-clack, natural coin-on-metal contact and one tiny settling tick. Close-microphone realistic mechanical foley, immediate onset, damped decay. No ringing, no chimes, no bell, no melody, no voices, no electronic tones, no ambience.",
+        "node_id": "nO5rKYSnUXl6vsJbOUHN",
+        "index": 3,
+        "session_id": "ajokJtNNONE7Y9E9YylT",
+        "id": "okXjdVukYnjN8G0l6tcm",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-tray-04.mp3",
+      "bank": "tray",
+      "duration_seconds": 0.21,
+      "source_trim_start_seconds": 0.0,
+      "bytes": 3492,
+      "sha256": "1d68f8171cbec433df1a869af9d69e44a13f4245ec379783291b5134b93a06b2",
+      "source": {
+        "name": "tray",
+        "prompt": "One single small copper penny drops a few centimeters into a shallow steel payout tray containing other pennies. A short dry slightly hollow tick-clack, natural coin-on-metal contact and one tiny settling tick. Close-microphone realistic mechanical foley, immediate onset, damped decay. No ringing, no chimes, no bell, no melody, no voices, no electronic tones, no ambience.",
+        "node_id": "nO5rKYSnUXl6vsJbOUHN",
+        "index": 4,
+        "session_id": "4SWCc0eB8i0Xi3etqLSc",
+        "id": "SqK6KUx2q4L6uc60lPOI",
+        "duration": 0.48
+      },
+      "default": true
+    },
+    {
+      "file": "dry-coin-05.mp3",
+      "bank": "coin",
+      "duration_seconds": 0.15,
+      "source_trim_start_seconds": 0.00145,
+      "bytes": 2551,
+      "sha256": "0dfa1bf76dffe1bfdfc4ab5652df10c3843e9ade2428d2e99f6241c3c208e4d2",
+      "source": {
+        "source_file": "gold-01.mp3",
+        "source_generation": "pAudKUC9oq93ZQpWKZ9E",
+        "source_sha256": "6dcb468634ba08e459d0ee4e956fa910b71663ba6dcd3c4183dd5963611e5d44",
+        "prompt": "Isolated close-mic foley of a heavy gold arcade token contacting a steel tray. Dense rich low metallic clank with a bright fine ringing overtone, immediate strike and two subtle settling taps. No music, no speech or ambience."
+      },
+      "default": true
+    },
+    {
+      "file": "dry-coin-06.mp3",
+      "bank": "coin",
+      "duration_seconds": 0.15,
+      "source_trim_start_seconds": 0.0,
+      "bytes": 2551,
+      "sha256": "c871a75669d7126065863131aa74bc95bcc189ce6bc2921b389ebf99faf8f748",
+      "source": {
+        "source_file": "gold-02.mp3",
+        "source_generation": "6LcJT8SyvEJLFGKEcQK2",
+        "source_sha256": "1f5c66a0ad308cf30d8f71015283f3e7ab67d067740a6b58c073b7cb5bc1680c",
+        "prompt": "Isolated close-mic foley of a heavy gold arcade token contacting a steel tray. Dense rich low metallic clank with a bright fine ringing overtone, immediate strike and two subtle settling taps. No music, no speech or ambience."
+      },
+      "default": true
+    },
+    {
+      "file": "dry-drop-01.mp3",
+      "bank": "drop",
+      "duration_seconds": 0.26,
+      "source_trim_start_seconds": 0.04283,
+      "bytes": 3805,
+      "sha256": "439a60f67d527be8a186742a927a846107b02d8dc2c8f4439198fe6943cb0e05",
+      "source": {
+        "source_file": "drop-03.mp3",
+        "source_generation": "BFxjEofe3vzs5iyVLDjT",
+        "source_sha256": "72f2fd2f721811a164cc09eac22707e170b6625b7eee4b946ec3487eeb06c0d7",
+        "prompt": "Isolated close-mic mechanical foley of a penny sliding down a short metal chute into a coin-pusher machine. Immediate crisp slide-tick-clink, quick satisfying action, dry detail, no background, no speech, no music."
+      },
+      "default": true
+    },
+    {
+      "file": "dry-drop-02.mp3",
+      "bank": "drop",
+      "duration_seconds": 0.26,
+      "source_trim_start_seconds": 0.13762,
+      "bytes": 3805,
+      "sha256": "3427a3e25902a8109413f117795217b7cf2ddcaa744e65ebe6fe9950a28720aa",
+      "source": {
+        "source_file": "drop-04.mp3",
+        "source_generation": "o9EHz2Ec7eHzZIgKuaDU",
+        "source_sha256": "bd37960046df746c3974a9a84a7b1fd8a5a684531e6749e82df11ee341278e01",
+        "prompt": "Isolated close-mic mechanical foley of a penny sliding down a short metal chute into a coin-pusher machine. Immediate crisp slide-tick-clink, quick satisfying action, dry detail, no background, no speech, no music."
+      },
+      "default": true
+    },
+    {
+      "file": "quiet-motor.mp3",
+      "bank": "motor",
+      "duration_seconds": 3.9,
+      "source_trim_start_seconds": 0.0,
+      "bytes": 47691,
+      "sha256": "2b332115c07e43220a403814f1f56ab63c354b4c8205fcd962d99133eaa31a12",
+      "source": {
+        "source_file": "motor-01.mp3",
+        "source_generation": "WVtdUOtceZMDGZS9eaD8",
+        "source_sha256": "31733de903f828f61104983357d80a3d214fde4e8445231c35cc2217374b81ea",
+        "prompt": "Seamless quiet loop of a small precision arcade coin-pusher electric gearmotor. Soft low mechanical hum, delicate rotating gears and faint rhythmic metal rattle. Smooth steady motor at constant speed, no starting or stopping, no loud squeaks, no coins, no speech, no music, no background."
+      },
+      "default": false
+    },
+    {
+      "file": "voiceAvalanche-01.mp3",
+      "bank": "voiceAvalanche",
+      "default": false,
+      "duration_seconds": 1.123265,
+      "bytes": 13836,
+      "sha256": "6adb213bdb7f4e0384c2fa481c3b1145e4b5bcb92f6be6f403359ff55df008ce",
+      "source": {
+        "name": "voiceAvalanche",
+        "index": 1,
+        "prompt": "Avalanche!",
+        "node_id": "tjyhCEorRIbZR7dYzkKt",
+        "loop": false,
+        "requestedDuration": null,
+        "session_id": "CzSK5l9QoMGTOmSUr28x",
+        "id": "cd1nm2U8ojBx4mhYDgxY",
+        "duration": 1.1145578231292517,
+        "file": "voiceAvalanche-01.mp3",
+        "model": "eleven_multilingual_v2",
+        "voice_id": "34lPwSZ54D8fWbX1aHzk",
+        "voice_name": "Guy - Upbeat TV Radio Announcer",
+        "original_sha256": "5e51144afa15c3dd82c05f23ecf200114c223a58c26152fcbb6906d70af38e0b",
+        "sha256": "6adb213bdb7f4e0384c2fa481c3b1145e4b5bcb92f6be6f403359ff55df008ce",
+        "bytes": 13836,
+        "duration_seconds": 1.123265,
+        "trimmed_leading_seconds": 0.0251,
+        "peak_before_normalization": 0.89135,
+        "sample_rate": 44100,
+        "channels": 1
+      }
+    },
+    {
+      "file": "voiceJackpot-01.mp3",
+      "bank": "voiceJackpot",
+      "default": false,
+      "duration_seconds": 1.17551,
+      "bytes": 14463,
+      "sha256": "7326515b78802febc84faf9af70cb340b622a3db178dfd0df950b3e2ebea589c",
+      "source": {
+        "name": "voiceJackpot",
+        "index": 1,
+        "prompt": "Jackpot!",
+        "node_id": "YeyujdAvlHZKiRDpSSB9",
+        "loop": false,
+        "requestedDuration": null,
+        "session_id": "txcv0Gv9SpeZhOV29PcX",
+        "id": "VWN3xxUh40FP51thVyJU",
+        "duration": 1.1609977324263039,
+        "file": "voiceJackpot-01.mp3",
+        "model": "eleven_multilingual_v2",
+        "voice_id": "34lPwSZ54D8fWbX1aHzk",
+        "voice_name": "Guy - Upbeat TV Radio Announcer",
+        "original_sha256": "5b023ce75b127e9c9d02d84d7a20cc06d1168e590368c808280c86031ab601ab",
+        "sha256": "7326515b78802febc84faf9af70cb340b622a3db178dfd0df950b3e2ebea589c",
+        "bytes": 14463,
+        "duration_seconds": 1.17551,
+        "trimmed_leading_seconds": 0.03739,
+        "peak_before_normalization": 0.904025,
+        "sample_rate": 44100,
+        "channels": 1
+      }
+    }
+  ],
+  "removed_active_assets": [
+    "gold-01.mp3",
+    "drop-03.mp3",
+    "avalanche-01.mp3",
+    "silver-01.mp3",
+    "jackpotCollect-01.mp3",
+    "gold-04.mp3",
+    "silver-04.mp3",
+    "motor-01.mp3",
+    "motor-04.mp3",
+    "gold-03.mp3",
+    "silver-02.mp3",
+    "avalanche-03.mp3",
+    "jackpotCollect-03.mp3",
+    "avalanche-04.mp3",
+    "copper-02.mp3",
+    "victory-02.mp3",
+    "drop-01.mp3",
+    "voiceBigPush-01.mp3",
+    "copper-03.mp3",
+    "victory-04.mp3",
+    "victory-01.mp3",
+    "victory-03.mp3",
+    "avalanche-02.mp3",
+    "silver-03.mp3",
+    "copper-04.mp3",
+    "drop-02.mp3",
+    "drop-04.mp3",
+    "motor-02.mp3",
+    "gold-02.mp3",
+    "jackpotCollect-04.mp3",
+    "copper-01.mp3",
+    "motor-03.mp3"
+  ],
+  "total_bytes": 112874,
+  "default_bytes": 36884
+}
