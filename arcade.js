@@ -31,7 +31,7 @@ if(!game){catalog('all')}else{
  $('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await $('player').requestFullscreen()}catch{status('Fullscreen is unavailable in this browser.')}};
  const guest=game[2]==='share' && !!room;
  if(!guest){
-  const frame=document.createElement('iframe');frame.id='game';frame.title=game[1];frame.allow='autoplay; fullscreen; gamepad';frame.src='games/'+slug+'/';frame.onload=()=>frame.focus();$('stage').append(frame);
+  const frame=document.createElement('iframe');frame.id='game';frame.title=game[1];frame.allow='autoplay; fullscreen; gamepad; clipboard-write';frame.src=slug==='penny-pusher'?'https://jalapenoseed-penny-pusher-wars.fly.dev/':'games/'+slug+'/';frame.onload=()=>frame.focus();$('stage').append(frame);
  }
  if(game[2]==='share'){
   const script=document.createElement('script');script.src='vendor/peerjs.min.js';
