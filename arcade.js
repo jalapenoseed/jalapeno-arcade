@@ -1,5 +1,6 @@
 'use strict';
 const games = [
+ ['goldwing','Goldwing: Pollen Run','solo','Touch flight arcade','Fly the spring meadow, gather glowing pollen and bring it home to the hive.'],
  ['penny-pusher','Penny Pusher Wars','native','Online duel','Time the drop and shove the shared pile over the edge.'],
  ['boso86',"BŌSŌ ’86",'share','Motorcycle brawler','Ride through neon streets in Kamikaze Run.'],
  ['drifters-quest','Drifter’s Quest 2.5D','native','Shared-world RPG','Create a drifter, explore the world and meet other players.'],
@@ -17,7 +18,7 @@ function catalog(filter){
  for(const [id,title,mode,genre,desc] of games){
   if(filter!=='all' && filter!==mode)continue;
   const card=document.createElement('a');
-  card.className='card';card.href='#'+id;
+  card.className='card';card.href=mode==='solo'?'games/'+id+'/':'#'+id;
   card.innerHTML='<img alt="" src="covers/'+id+'.jpg"><div class="details"><small class="mode">'+genre+'</small><h2>'+title+'</h2><p>'+desc+'</p></div>';
   $('rack').append(card);
  }
