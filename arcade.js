@@ -1,6 +1,6 @@
 'use strict';
 const games = [
- ['goldwing','Goldwing: Pollen Run','solo','Touch flight arcade','Fly the spring meadow, gather glowing pollen and bring it home to the hive.'],
+ ['goldwing','Goldwing: Pollen Run','solo','Touch flight arcade','Pollinate wildflowers, free workers from silk and found three spring colonies.'],
  ['penny-pusher','Penny Pusher Wars','native','Online duel','Time the drop and shove the shared pile over the edge.'],
  ['boso86',"BŌSŌ ’86",'share','Motorcycle brawler','Ride through neon streets in Kamikaze Run.'],
  ['drifters-quest','Drifter’s Quest 2.5D','native','Shared-world RPG','Create a drifter, explore the world and meet other players.'],
